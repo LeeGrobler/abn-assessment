@@ -1,5 +1,5 @@
 <template>
-  <v-bottom-sheet :model-value="!visible" @update:model-value="close">
+  <v-bottom-sheet :model-value="visible" @update:model-value="close">
     <v-card height="200">
       <v-btn
         class="close-btn"
@@ -21,7 +21,7 @@ import { Tree } from "@/types/Tree";
 const $emit = defineEmits(["close"]);
 
 const { visible } = defineProps<{
-  visible: Boolean;
+  visible: boolean | undefined;
   node: Tree | null;
 }>();
 
