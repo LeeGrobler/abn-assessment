@@ -1,1 +1,0 @@
-import{_ as e}from"./AppBar.vue_vue_type_script_setup_true_lang-GF8NAIFa.js";import{_ as t}from"./View.vue_vue_type_script_setup_true_lang-pWFHYct9.js";import{d as o,c as r,w as s,V as _,o as c,a}from"./index-K6qjQLio.js";import"./VImg-2Ca80txa.js";const d=o({__name:"default",setup(m){return(n,p)=>(c(),r(_,null,{default:s(()=>[a(e),a(t)]),_:1}))}});export{d as default};
