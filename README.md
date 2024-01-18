@@ -19,28 +19,27 @@ Node.js and npm installed on your machine.
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/LeeGrobler/abn-assessment
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd your-repo
+cd abn-assessment
 ```
 
 3. Install dependencies for both frontend and backend:
 
 ```
-cd frontend
+cd client
 npm install
-cd ../backend
+cd ../server
 npm install
 ```
 
 4. Run the backend server:
 
 ```
-cd backend
 npm start
 ```
 
@@ -49,8 +48,8 @@ The backend will be available at http://localhost:3000.
 5. In a separate terminal, run the frontend:
 
 ```
-cd frontend
-npm run serve
+cd ../client
+npm run dev
 ```
 
 The frontend will be available at http://localhost:3001.
@@ -63,8 +62,8 @@ The frontend will be available at http://localhost:3001.
 
 ## Project Structure
 
-- frontend/: Contains the source code for the Vue 3 frontend project.
-- backend/: Contains the source code for the Node.js and Express backend server.
+- /client: Contains the source code for the Vue 3 frontend project.
+- /server: Contains the source code for the Node.js and Express backend server.
 
 ## Technologies Used
 
@@ -78,3 +77,4 @@ The frontend will be available at http://localhost:3001.
 
 - Node.js
 - Express
+- CORS

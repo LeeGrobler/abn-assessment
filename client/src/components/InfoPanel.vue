@@ -1,5 +1,5 @@
 <template>
-  <v-bottom-sheet :model-value="visible" @update:model-value="close">
+  <v-bottom-sheet :model-value="!visible" @update:model-value="close">
     <v-card height="200">
       <v-btn
         class="close-btn"
