@@ -12,7 +12,6 @@ import { fileURLToPath, URL } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === "development" ? "" : "/REPONAME/",
   plugins: [
     VueRouter(),
     Layouts(),

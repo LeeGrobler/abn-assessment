@@ -4,6 +4,8 @@
 
 This project consists of a frontend and backend for a TypeScript Vue 3 application. The frontend renders a tree graph based on an array of objects delivered by the backend. When clicking on a node, a bottom sheet opens to show the details of the selected element.
 
+For a live demo of this project, visit https://leegrobler.github.io/abn-assessment/
+
 ## Features
 
 - Dynamic rendering of a tree graph based on an input array of objects.
