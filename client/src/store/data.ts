@@ -6,9 +6,12 @@ export const useDataStore = defineStore("data", {
   actions: {
     async fetch() {
       try {
-        const response = await fetch(
-          "https://europe-west2-seriouslee-v3.cloudfunctions.net/abn/api/data"
-        );
+        const url =
+          process.env.NODE_ENV === "development"
+            ? "http://localhost:3000"
+            : "https://europe-west2-seriouslee-v3.cloudfunctions.net/abn";
+
+        const response = await fetch(`${url}/api/data`);
 
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
