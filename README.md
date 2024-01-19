@@ -42,7 +42,7 @@ npm install
 4. Run the backend server:
 
 ```
-npm start
+node index.js
 ```
 
 The backend will be available at http://localhost:3000.
