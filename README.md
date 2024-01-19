@@ -16,6 +16,8 @@ For a live demo of this project, visit https://leegrobler.github.io/abn-assessme
 
 Node.js and npm installed on your machine.
 
+**Make sure to use Node.js version 16 or higher to ensure compatibility with the project. You can check your Node.js version by running node -v in your terminal. If you need to update Node.js, please visit https://nodejs.org/ for the latest version.**
+
 ## Setup
 
 1. Clone the repository:
