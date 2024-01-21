@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height px-6">
-    <DataVisualiser :data="data" @select="selectNode" />
+    <DataVisualiser v-if="data" :data="data" @select="selectNode" />
     <InfoPanel :visible="panelVisible" :node="selectedNode" @close="close" />
     <div class="footer">Lee Grobler - 2024</div>
   </v-container>
