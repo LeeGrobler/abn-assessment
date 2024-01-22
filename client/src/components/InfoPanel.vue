@@ -1,10 +1,5 @@
 <template>
-  <div
-    v-if="visible"
-    class="overlay"
-    @click="close(false)"
-    style="z-index: 999"
-  ></div>
+  <div v-if="visible" class="overlay" @click="close(false)"></div>
 
   <v-card class="bottom-sheet" :class="{ visible }" height="200" elevation="24">
     <v-btn
@@ -43,6 +38,7 @@ const close = (value: Boolean) => {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 .bottom-sheet {
