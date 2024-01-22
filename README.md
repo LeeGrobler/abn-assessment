@@ -44,6 +44,12 @@ npm install
 4. Run the backend server:
 
 ```
+npm start
+```
+
+OR
+
+```
 node index.js
 ```
 
