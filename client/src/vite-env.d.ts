@@ -8,4 +8,4 @@ declare module "*.vue" {
 
 declare module "virtual:generated-layouts";
 declare module "vue-router/auto";
-declare module "@ssthouse/vue3-tree-chart";
+declare module "d3";
